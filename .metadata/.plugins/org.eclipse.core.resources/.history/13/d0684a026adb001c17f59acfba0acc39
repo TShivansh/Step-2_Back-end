@@ -1,0 +1,37 @@
+package p1;
+
+import java.io.PrintWriter;
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class HibernateConfig
+ */
+@WebServlet("/HibernateConfig")
+public class HibernateConfig extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+	/**
+	 * @see HttpServlet#service(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		HibernateManager hm = new HibernateManager();
+		
+		boolean b = response.getWriter() != null;
+		PrintWriter writer = response.getWriter();
+		if(b==true) {
+			writer.println("Hibernate configurations are up and running");
+			
+		}
+		
+		else {
+			writer.println("Could not complete the hibernate configuration set up");
+		}
+		
+	}
+
+}

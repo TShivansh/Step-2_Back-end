@@ -1,0 +1,13 @@
+package p1;
+
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+
+/**
+ * Servlet implementation class HibernateConfig3
+ */
+@WebServlet("/HibernateConfig3")
+public class HibernateConfig3 extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+}

@@ -1,0 +1,8 @@
+127.0.0.1 - - [31/May/2022:10:35:03 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:35:22 +0530] "GET /HibernateConfigurationProject-B/ HTTP/1.1" 200 476
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:35:24 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:35:41 +0530] "GET /HibernateConfigurationProject-B/HibernateConfig1 HTTP/1.1" 500 1389
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:35:45 +0530] "GET /HibernateConfigurationProject-B/HibernateConfig HTTP/1.1" 500 1355
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:35:49 +0530] "GET /HibernateConfigurationProject-B/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:35:57 +0530] "GET /HibernateConfigurationProject-B/HibernateConfig3 HTTP/1.1" 200 -
+0:0:0:0:0:0:0:1 - - [31/May/2022:10:36:06 +0530] "GET /HibernateConfigurationProject-B/HibernateConfig4 HTTP/1.1" 500 1823
